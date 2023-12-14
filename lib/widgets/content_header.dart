@@ -5,6 +5,7 @@ import 'package:netflix/widgets/vertical_icon_button.dart';
 class ContentHeader extends StatelessWidget {
   final Content featuredContent;
   const ContentHeader({super.key, required this.featuredContent});
+  
 
   @override
   Widget build(BuildContext context) {
